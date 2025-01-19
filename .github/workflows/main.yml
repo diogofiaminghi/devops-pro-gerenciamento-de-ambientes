@@ -1,7 +1,7 @@
 name: CD Fake
 on:
   workflow_dispatch:
-    input:
+    inputs:
       ambiente:
         type: choice
         options:
